@@ -13,16 +13,24 @@
 }
 
 body{
-  margin: 20px 10%;
+  margin: 30px 10%;
+}
+
+header, .jumbotron, .container, footer{
+  width: 100%;
 }
 
 /* HEADER */
 
-header{
-  width: 100%;
-}
-
 header.top{
   height: 95px;
   background-color: #e579e6;
+  margin-bottom: 30px;
+}
+
+/* MAIN */
+
+.jumbotron{
+  height: 610px;
+  background-color: #e1d67a;
 }
