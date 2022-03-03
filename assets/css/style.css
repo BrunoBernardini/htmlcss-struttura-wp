@@ -20,12 +20,15 @@ header, .jumbotron, .container, footer{
   width: 100%;
 }
 
+header, .jumbotron{
+  margin-bottom: 30px;
+}
+
 /* HEADER */
 
-header.top{
-  height: 95px;
+body > header:first-child{
+  height: 175px;
   background-color: #e579e6;
-  margin-bottom: 30px;
 }
 
 /* MAIN */
@@ -33,4 +36,39 @@ header.top{
 .jumbotron{
   height: 610px;
   background-color: #e1d67a;
+}
+
+.container{
+  background-color: #0485fb;
+  padding-bottom: 30px;
+}
+
+.container > header, .container > aside, .container > section{
+  background-color: #abcfe7;
+}
+
+.container > header{
+  height: 110px;
+}
+
+.container aside, .container section{
+  height: 655px;
+}
+
+.container > aside{
+  width: 29%;
+}
+
+.container > section{
+  float: left;
+  width: 39%;
+}
+
+.left{
+  float: left;
+  margin-right: 1.5%;
+}
+
+.right{
+  float: right;
 }
